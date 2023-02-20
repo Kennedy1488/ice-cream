@@ -298,6 +298,18 @@ img {
 
 .our__menu-price {
     margin-top: 28px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.our__menu-oldprice {
+    text-decoration-line: line-through;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+
+    opacity: 0.7;
 }
 
 .our__btn {
@@ -306,20 +318,34 @@ img {
 
 .our__container-img {}
 
-.review {}
+.review {
+    display: flex;
+}
 
-.review__name {}
+.review__girl {}
 
-.review__subtitle {}
+.girl {
+    display: flex;
+}
 
-.subtitle__logo {}
+.girl__img-container {}
 
-.subtitle__name {}
+.girl__info {}
 
-.subtitle__nationality {}
+.name {}
 
-.review__desc {}
+.national {}
+
+.girl__text {}
 
 .review__choice {}
 
-.review__img {}
+.choice__item {}
+
+.arrow {}
+
+.peopla__small {}
+
+.peopla_big {}
+
+.review__icecream {}
