@@ -288,12 +288,23 @@ img {
     margin: 20px;
     width: 454px;
     height: 234px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.our__menu-subtitle {}
+.our__menu-subtitle {
+    margin-bottom: 11px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+}
 
 .our__menu-desc {
-    margin-top: 11px;
+    margin-bottom: 30px;
 }
 
 .our__menu-price {
@@ -320,32 +331,160 @@ img {
 
 .review {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.review__girl {}
+.review__1 {}
+
+.review__girl {
+    margin-bottom: 50px;
+}
 
 .girl {
     display: flex;
+    margin-bottom: 50px;
 }
 
-.girl__img-container {}
+.girl__img-container {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+}
+
+.girl__img {
+    width: 100%;
+}
 
 .girl__info {}
 
-.name {}
+.name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
 
-.national {}
+.national {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
 
-.girl__text {}
+}
 
-.review__choice {}
+.girl__text {
+    width: 322px;
+}
+
+.review__choice {
+    display: flex;
+    column-gap: 25px;
+    flex-direction: row;
+    align-items: center;
+}
 
 .choice__item {}
 
-.arrow {}
+.arrow {
+    width: 14px;
+    height: 14px;
+}
 
-.peopla__small {}
+.arrow-img {
+    width: 100%;
+}
 
-.peopla_big {}
+.peopla__small {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.peopla__small-img {
+    width: 100%;
+}
+
+.peopla__big {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+}
+
+.peopla__big-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 .review__icecream {}
+
+.downloadlinks__section {
+    height: 678px;
+    background-color: #F8EDF0;
+}
+
+.downloadlinks {
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.downloadlinks__img-container {
+    width: 305px;
+    height: 627px;
+    margin-top: 8.11%;
+}
+
+.downloadlinks__phone {
+    width: 100%;
+}
+
+.downloadlinks__text-container {
+    width: 620px;
+    margin-top: 13.2%;
+}
+
+.downloadlinks__h1 {}
+
+.dodownloadlinks__text-desc {
+    margin-top: 2.94%;
+}
+
+.downloadlinks__ul {
+    margin-top: 4.57%;
+}
+
+.downloadlinks__item {
+    padding-bottom: 19px;
+    display: flex;
+}
+
+.downloadlinks__item-link {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.downloadlinks__item-img {
+    width: 11px;
+    height: 16.5px;
+}
+
+.downloadlinks__item:last-child {
+    padding: 0;
+}
+
+.app__market {}
