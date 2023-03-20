@@ -57,7 +57,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 207px;
+    margin-bottom: 37px;
 }
 
 .logo {
@@ -100,7 +100,9 @@ img {
     padding: 15px 36px;
 }
 
-.hero__content {}
+.hero__content {
+    display: flex;
+}
 
 .hero__info {}
 
@@ -147,31 +149,34 @@ img {
     font-family: 'Hind Madurai';
 }
 
+.hero_img-content {
+    position: relative;
+}
+
 .around {
     width: 336px;
     height: 336px;
     background-color: rgba(242, 206, 218, 0.611);
     border-radius: 50%;
     position: absolute;
-    left: 1113.8px;
-    top: 400px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .hero__img-cream {
-    position: absolute;
     width: 597px;
     height: 597px;
-    left: 990px;
-    top: 126px;
+    position: relative;
 }
 
 .hero__img-milk {
-    position: absolute;
     width: 851.86px;
     height: 548.1px;
-    left: 850.8px;
-    top: 251px;
     transform: rotate(4.79deg);
+    position: absolute;
+    right: 0;
+    bottom: -108px;
 }
 
 .offers {}
@@ -464,6 +469,7 @@ img {
 .downloadlinks__item {
     padding-bottom: 19px;
     display: flex;
+    align-items: center;
 }
 
 .downloadlinks__item-link {
@@ -487,4 +493,75 @@ img {
     padding: 0;
 }
 
-.app__market {}
+.downloadlinks__desc {
+    margin-left: 10px;
+}
+
+.app__market {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.questions {}
+
+.questions__block {
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.questions__block-items {
+    width: 637px;
+    height: 225px;
+}
+
+.questions__block-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    width: 522px;
+}
+
+.questions__form {
+    width: 637px;
+    height: 74px;
+
+}
+
+.questions__block-form {
+    display: flex;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+
+.questions__text {
+    width: 80%;
+    height: 74px;
+    margin: 0;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: #ffffff;
+}
+
+.questions__submit {
+    border: #ffffff;
+    width: 19%;
+    height: 74px;
+    background: #D64374;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.footer {
+    height: 382px;
+    background-color: #000000;
+}
