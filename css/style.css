@@ -49,7 +49,7 @@ img {
 }
 
 .container {
-    max-width: 1140px;
+    width: 1140px;
     margin: 0 auto;
 }
 
@@ -80,13 +80,27 @@ img {
 .nav__link {
     font-family: 'Roboto';
     font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #150101;
+
+    opacity: 0.6;
+}
+
+.nav__link:hover {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
-}
 
-.nav__link:first-child {
-    /*color: #D23166;*/
+    /* identical to box height */
+
+    color: #D23166;
+
+
 }
 
 .btn {
@@ -349,6 +363,7 @@ img {
 .girl {
     display: flex;
     margin-bottom: 50px;
+    align-items: center;
 }
 
 .girl__img-container {
@@ -356,6 +371,7 @@ img {
     overflow: hidden;
     width: 60px;
     height: 60px;
+    margin-right: 11px;
 }
 
 .girl__img {
@@ -419,6 +435,7 @@ img {
     overflow: hidden;
     width: 60px;
     height: 60px;
+    border: 1px solid #D64374;
 }
 
 .peopla__big-img {
@@ -564,4 +581,204 @@ img {
 .footer {
     height: 382px;
     background-color: #000000;
+    display: flex;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 382px;
+}
+
+.socialnetwork {
+    width: 207px;
+ 
+}
+
+.footer__logo {
+    width: 79px;
+    height: 79px;
+    margin-bottom: 9px;
+}
+
+.logo {}
+
+.logo__pic {
+    width: 100%;
+}
+
+.somefood {
+    width: 207px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+
+
+.FllowUs {}
+
+.FllowUs__text {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.social {
+    display: flex;
+    width: 90px;
+    height: 15px;
+    justify-content: space-between;
+}
+
+.social__item {
+    width: 15px;
+    height: 15px;
+}
+
+.social__img {
+    width: 100%;
+}
+
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer__navigation-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+
+    margin-bottom: 10px;
+}
+
+.footer__navigation-item:last-child {
+    margin: 0;
+}
+
+.footer__navigation-item:hover {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+}
+
+.footer__information {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__information-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+
+    margin-bottom: 10px;
+
+}
+
+.footer__information-item:last-child {
+    margin: 0;
+}
+
+.Newsletter {}
+
+.Newsletter__text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+
+.Subscribe__form {
+    opacity: 0.5;
+border: 2px solid #D64374;
+border-radius: 5px;
+height: 55px;
+width: 388px;
+}
+
+.Subscribe__text {
+  width: 253px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
+  height: 55px;
+  color: #FFFFFF;
+}
+
+.Subscribe__submit {
+    width: 125px;
+    background: #D64374;
+    margin: 0;
+    border: #FFFFFF;
+    height: 100%;
+}
+.paymentsystems {
+    display: flex;
+    margin-top: 15px;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.PP {
+    height: 19px;
+    width: 17px;
+}
+
+.PP__img{
+    width: 100%;
+}
+
+.mastercard {
+    width: 34px;
+    height: 20px;
+}
+
+.mastercard__img{
+    width: 100%;
+}
+
+.visa {
+    width: 47px;
+    height: 15px;
+}
+
+.visa__img{
+    width: 100%;
 }
